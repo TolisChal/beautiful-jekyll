@@ -2,7 +2,7 @@
 layout: page
 title: About me
 ---
-![mypic](https://github.com/TolisChal/TolisChal.github.io/blob/master/img/mypic.jpg?raw=true =100x20)  
+![mypic](https://github.com/TolisChal/TolisChal.github.io/blob/master/img/mypic.jpg?raw=true =100x)  
   
 My name is Chalkis Apostolos.
 
