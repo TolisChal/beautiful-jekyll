@@ -7,23 +7,26 @@ title: Google Summer of Code 2018
 ### <span style="text-align:center;">Project: Efficient R tools for geometrical statistics  
 #### <span style="text-align:center;">Topic:  Volume approximation and sampling in high dimensions  
   
-#### *mentors:* Vissarion Fisikopoulos, Zafeirakis Zafeirakopoulos
+#### *mentor:* Vissarion Fisikopoulos  
   
 ---------------------------------------------------------------------------  
     
 ### *Final Evaluation*  
 
-The main goal of this project was to create a R package, using Rcpp, for the C++ volume package volesti. In addition, in the [proposal](https://drive.google.com/file/d/1CsblG42xXLoyYiDmcCSjRJhL3Eilxk5u/view) we suggested to add volume computation for non-linear convex bodies and V-polytopes and sampling from convex bodies in high dimensions.  
+The main goal of this project was to create a R package, using Rcpp, based on the C++ package volesti. In addition, in the [proposal](https://drive.google.com/file/d/1CsblG42xXLoyYiDmcCSjRJhL3Eilxk5u/view) we suggested to add volume computation for non-linear convex bodies and V-polytopes and sampling from convex bodies in high dimensions.  
 In bonding period we decided to implement [practical algorithm](http://mpc.zib.de/index.php/MPC/article/view/178/99) of B. Cousins and S. Vempala, for volume approximation, and to focus on V-polytopes and not to non-linear convex bodies.  
+  
+The main repository is [here](https://github.com/vissarion/volume_approximation).  
   
 Summarizing GSoC project we have succeeded the following goals:  
 1. We have excluded CGAL library from the initial volesti C++ implementaion.  
-2. We have implemented CV algorithm for convex polytopes.  
-3. We have added volume computation for V-polytopes, using either volesti or CV algorithm.  
-4. We have added ball walk method for the random walk.  
-5. We have implemented a R package, using Rcpp, that is able to call C++ implementaion and use all the above options.  
-6. In the R package we give the additional option of sampling from a convex H or V-polytope with uniform or spherical gaussian target distribution.  
-7. In the R package we give also the options of rounding and applying random rotation on a H or V-polytope.  
+2. We use RcppEigen and BH libraries in order to use Eigen and Boost libraries. For the linear programs we use lpSolve library.  
+3. We have implemented CV algorithm for convex polytopes.  
+4. We have added volume computation for V-polytopes, using either volesti or CV algorithm.  
+5. We have added ball walk method for the random walk.  
+6. We have implemented a R package, using Rcpp, that is able to call C++ implementaion and use all the above options.  
+7. In the R package we give the additional option of sampling from a convex H or V-polytope with uniform or spherical gaussian target distribution.  
+8. In the R package we give also the options of rounding and applying random rotation on a H or V-polytope.  
    
 You can see the branch that we have excluded CGAL from volesti and create a basic Rcpp interface [here](https://github.com/TolisChal/volume_approximation/tree/develop).  
 
@@ -43,5 +46,5 @@ You can see the branch that we have excluded CGAL from volesti and create a basi
  - Create the final version of the R package after mentor's evaluation and submit it to CRAN.  
  - Continue working on V-polytopes' volume approximation by improving parts of the current algorithms, i.e. V-polytope membership by using [CppOptimizationLibrary](https://github.com/PatWie/CppNumericalSolvers) library. Test new ideas and methods for V-polytopes.  
  - Extend current implementation to non-linear convex and non-convex bodies.  
- - Add implementations of financial applications for crisis prediction and financial modeling, describing [here](https://arxiv.org/abs/1803.05861).  
+ - Add implementations of financial applications for crisis prediction and financial modeling, that are described [here](https://arxiv.org/abs/1803.05861).  
  - Add more sampling options, i.e. different random walk algorithms or sampling from the boundary of a convex body.  
