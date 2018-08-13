@@ -1,4 +1,12 @@
-* #### *List of Pull Requests*  
+---
+layout: page
+title: Google Summer of Code 2018
+---
+
+## <span style="text-align:center;">*R project for geometrical statistics*
+### <span style="text-align:center;">Volume approximation and sampling in high dimensions
+
+#### *List of Pull Requests*  
  - [Exclude CGAL dependencies](https://github.com/TolisChal/volume_approximation/pull/2)
  - [Implementation of CV algorithm](https://github.com/TolisChal/volume_approximation/pull/3)  
  - [Replace StdMatrix with Eigen::Matrix](https://github.com/TolisChal/volume_approximation/pull/6)
