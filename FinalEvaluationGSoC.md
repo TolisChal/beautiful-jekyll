@@ -8,6 +8,7 @@ title: Google Summer of Code 2018
 #### <span style="text-align:center;">Topic:  Volume approximation and sampling in high dimensions  
   
 #### *mentors:* Vissarion Fisikopoulos, Zafeirakis Zafeirakopoulos  
+#### *Student:* Chalkis Apostolos  
   
 ---------------------------------------------------------------------------  
     
