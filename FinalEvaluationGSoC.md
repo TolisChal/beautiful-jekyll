@@ -7,7 +7,7 @@ title: Google Summer of Code 2018
 ### <span style="text-align:center;">Project: Efficient R tools for geometrical statistics  
 #### <span style="text-align:center;">Topic:  Volume approximation and sampling in high dimensions  
   
-#### *mentor:* Vissarion Fisikopoulos  
+#### *mentors:* Vissarion Fisikopoulos, Zafeirakis Zafeirakopoulos  
   
 ---------------------------------------------------------------------------  
     
@@ -43,7 +43,7 @@ You can see the branch that we have excluded CGAL from volesti and create a basi
     
    
 #### *Further work*  
- - Create the final version of the R package after mentor's evaluation and submit it to CRAN.  
+ - Create the final version of the R package after mentors' evaluation and submit it to CRAN.  
  - Continue working on V-polytopes' volume approximation by improving parts of the current algorithms, i.e. V-polytope membership by using [CppOptimizationLibrary](https://github.com/PatWie/CppNumericalSolvers) library. Test new ideas and methods for V-polytopes.  
  - Extend current implementation to non-linear convex and non-convex bodies.  
  - Add implementations of financial applications for crisis prediction and financial modeling, that are described [here](https://arxiv.org/abs/1803.05861).  
