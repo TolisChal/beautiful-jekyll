@@ -13,7 +13,7 @@ title: Google Summer of Code 2018
     
 ### *Final Evaluation*  
 
-The main goal of this project was to create a R package, using Rcpp, based on the C++ package volesti. In addition, in the [proposal](https://drive.google.com/file/d/1CsblG42xXLoyYiDmcCSjRJhL3Eilxk5u/view) we suggested to add volume computation for non-linear convex bodies and V-polytopes and sampling from convex bodies in high dimensions.  
+The main goal of this project was to create a R package, using Rcpp, based on the [C++ package volesti](https://github.com/vissarion/volume_approximation). In addition, in the [proposal](https://drive.google.com/file/d/1CsblG42xXLoyYiDmcCSjRJhL3Eilxk5u/view) we suggested to add volume computation for non-linear convex bodies and V-polytopes and sampling from convex bodies in high dimensions.  
 In bonding period we decided to implement [practical algorithm](http://mpc.zib.de/index.php/MPC/article/view/178/99) of B. Cousins and S. Vempala, for volume approximation, and to focus on V-polytopes and not to non-linear convex bodies.  
   
 The main repository for C++ package volesti is [here](https://github.com/vissarion/volume_approximation).  
