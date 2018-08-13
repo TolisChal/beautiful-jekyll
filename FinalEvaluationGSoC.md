@@ -20,7 +20,7 @@ The main repository for C++ package volesti is [here](https://github.com/vissari
   
 Summarizing GSoC project we have succeeded the following goals:  
 1. We have excluded CGAL library from the initial volesti C++ implementaion.  
-2. We use RcppEigen and BH libraries in order to use Eigen and Boost libraries. For the linear programs we use lpSolve library.  
+2. We use RcppEigen and BH libraries in order to use Eigen and Boost libraries. To solve linear programs we use lpSolve library.  
 3. We have implemented CV algorithm for convex polytopes.  
 4. We have added volume computation for V-polytopes, using either volesti or CV algorithm.  
 5. We have added ball walk method for the random walk.  
