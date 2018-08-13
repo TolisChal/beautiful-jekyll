@@ -3,8 +3,8 @@ layout: page
 title: Google Summer of Code 2018
 ---  
   
-## <span style="text-align:center;">*R project for geometrical statistics*
-### <span style="text-align:center;">Volume approximation and sampling in high dimensions  
+## <span style="text-align:center;">*Organization: * R project for geometrical statistics  
+### <span style="text-align:center;">* Project: * Volume approximation and sampling in high dimensions  
   
 ---------------------------------------------------------------------------  
     
