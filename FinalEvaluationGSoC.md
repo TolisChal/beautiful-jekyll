@@ -23,7 +23,7 @@ Summarizing GSoC project we have succeeded the following goals:
 2. We use RcppEigen and BH libraries in order to use Eigen and Boost libraries. To solve linear programs we use lpSolve library.  
 3. We have implemented CV algorithm for convex polytopes.  
 4. We have added volume computation for V-polytopes, using either volesti or CV algorithm.  
-5. We have added ball walk method for the random walk.  
+5. In addition to Random Directions Hit and Run and Coordinate Directions Hit and Run, we have added ball walk method for the random walks that both algorithms require.  
 6. We have implemented a R package, using Rcpp, that is able to call C++ implementaion and use all the above options.  
 7. In the R package we give the additional option of sampling from a convex H or V-polytope with uniform or spherical gaussian target distribution.  
 8. In the R package we give also the options of rounding and applying random rotation on a H or V-polytope.  
