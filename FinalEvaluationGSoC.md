@@ -1,10 +1,27 @@
 ---
 layout: page
 title: Google Summer of Code 2018
----
-
+---  
+  
 ## <span style="text-align:center;">*R project for geometrical statistics*
-### <span style="text-align:center;">Volume approximation and sampling in high dimensions
+### <span style="text-align:center;">Volume approximation and sampling in high dimensions  
+  
+    
+### *Final Evaluation*  
+
+The main goal of this project was to create a R package, using Rcpp, for the C++ volume package volesti. In addition, in the [proposal](https://drive.google.com/file/d/1CsblG42xXLoyYiDmcCSjRJhL3Eilxk5u/view) we suggested to add volume computation for non-linear convex bodies and V-polytopes and sampling from convex bodies in high dimensions.  
+In bonding period we decided to implement [practical algorithm](http://mpc.zib.de/index.php/MPC/article/view/178/99) of B. Cousins and S. Vempala, for volume approximation, and to focus on V-polytopes and not to non-linear convex bodies.  
+  
+Summarizing GSoC project we have succeeded the following goals:  
+1. We have excluded CGAL library from the initial volesti C++ implementaion.  
+2. We have implemented CV algorithm for convex polytopes.  
+3. We have added volume computation for V-polytopes, using either volesti or CV algorithm.  
+4. We have added ball walk method for the random walk.  
+5. We have implemented a R package, using Rcpp, that is able to call C++ implementaion and use all the above options.  
+6. In the R package we give the additional option of sampling from a convex H or V-polytope with uniform or spherical gaussian target distribution.  
+7. In the R package we give also the options of rounding and applying random rotation on a H or V-polytope.  
+   
+You can see the branch that we have excluded CGAL from volesti and create a basic Rcpp interface [here](https://github.com/TolisChal/volume_approximation/tree/develop).  
 
 #### *List of Pull Requests*  
  - [Exclude CGAL dependencies](https://github.com/TolisChal/volume_approximation/pull/2)
