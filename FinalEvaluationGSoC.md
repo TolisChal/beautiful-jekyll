@@ -22,7 +22,7 @@ For the CV algorithm exists a matlab implementation [here](https://www.mathworks
 Summarizing GSoC project we have succeeded the following goals:  
 1. We have excluded CGAL library from the initial volesti C++ implementaion.  
 2. We use RcppEigen and BH libraries in order to use Eigen and Boost libraries. To solve linear programs we use lpSolve library.  
-3. We have implemented CV algorithm for convex polytopes.  
+3. We have developed a C++ implementation of CV algorithm for convex polytopes.  
 4. We have added volume computation for V-polytopes, using either volesti or CV algorithm.  
 5. In addition to Random Directions Hit and Run and Coordinate Directions Hit and Run, we have added ball walk method for the random walks that both algorithms require.  
 6. We have implemented a R package, using Rcpp, that is able to call C++ implementaion and use all the above options.  
