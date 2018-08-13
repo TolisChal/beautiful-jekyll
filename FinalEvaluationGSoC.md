@@ -39,8 +39,7 @@ You can see the branch that we have excluded CGAL from volesti and create a basi
  - [Improve rounding](https://github.com/TolisChal/volume_approximation/pull/9)  
    
  If you want to comment on the documentation of the R package, you can do it [here](https://drive.google.com/file/d/1htOhKLwk58Yai0a6mkHvfwpO42_0FbPy/view?usp=sharing).  
-   
-* #### *TODO List* [here](https://github.com/TolisChal/volume_approximation/issues/4)  
+    
    
 #### *Further work*  
  - Create the final version of the R package after mentor's evaluation and submit it to CRAN.  
@@ -48,3 +47,4 @@ You can see the branch that we have excluded CGAL from volesti and create a basi
  - Extend current implementation to non-linear convex and non-convex bodies.  
  - Add implementations of financial applications for crisis prediction and financial modeling, that are described [here](https://arxiv.org/abs/1803.05861).  
  - Add more sampling options, i.e. different random walk algorithms or sampling from the boundary of a convex body.  
+ * #### *TODO List* [here](https://github.com/TolisChal/volume_approximation/issues/4) 
