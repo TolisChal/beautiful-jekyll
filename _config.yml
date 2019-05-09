@@ -25,6 +25,7 @@ description: Personal Info
 navbar-links:
   About Me: "aboutme"
   GSoc 2018: "GSoC2018"
+  GSoc 2019: "GSoC2019"
   Final Evaluation GSoC18: "FinalEvaluationGSoC"
   Resources:
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
