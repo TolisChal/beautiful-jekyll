@@ -7,14 +7,14 @@ title: Google Summer of Code 2019
 ### <span style="text-align:center;">Project: State-of-the-art geometric random walks in R
 #### <span style="text-align:center;">Topic:  Computational Statistics and Geometry 
   
-#### *mentors:* Vissarion Fisikopoulos, Ilias Tsigaridas, Zafeirakis Zafeirakopoulos  
+#### *mentors:* Vissarion Fisikopoulos, Elias Tsigaridas, Zafeirakis Zafeirakopoulos  
 #### *Student:* Apostolos Chalkis
   
 ---------------------------------------------------------------------------  
     
 ### *Final Evaluation*  
 
-The main goals of this project was: a) to implement state-of-the-art geometric random walks for convex polytopes, b) to add them to package `volesti` (https://github.com/GeomScale/volume_approximation) in order to support `R` with efficient implementations, able to scale in thousands of dimensions for the first time and c) fast volume computation methods for all the representations of polytopes that `volesti` supports, using the implemented random walks. Indeed, HMC and billiard random walks converges very fast to the target distribution allowing us to sample in thousands of dimensions and obtain faster volume computations.  
+The main goals of this project was: a) to implement state-of-the-art geometric random walks for convex polytopes, b) to add them to package [volesti](https://github.com/GeomScale/volume_approximation) in order to support `R` with efficient implementations, able to scale in thousands of dimensions for the first time and c) fast volume computation methods for all the representations of polytopes that `volesti` supports, using the implemented random walks. Indeed, HMC and billiard random walks converges very fast to the target distribution allowing us to sample in thousands of dimensions and obtain faster volume computations.  
   
 In particular, I implemented the following:  
 
