@@ -15,7 +15,10 @@ title: Google Summer of Code 2019
 ### *Final Evaluation*  
 
 The main goals of this project was: a) to implement state-of-the-art geometric random walks for convex polytopes, b) to add them to package [volesti](https://github.com/GeomScale/volume_approximation) in order to support `R` with efficient implementations, able to scale in thousands of dimensions for the first time and c) fast volume computation methods for all the representations of polytopes that `volesti` supports, using the implemented random walks. Indeed, HMC and billiard random walks converges very fast to the target distribution allowing us to sample in thousands of dimensions and obtain faster volume computations.  
-  
+
+The following plot illustrates `1000` points sampled from a `2000`-dimensional hypercube with billiard walk and walk step equal to `1`, projected to the plane. The Pearson correlation coefficient is `0.05`, which implies almost perfect uniformity.  
+<img src="https://github.com/TolisChal/TolisChal.github.io/blob/master/img/sampled_2000.png?raw=true" width="300" height="300" />  
+
 In particular, I implemented the following:  
 
  - Hamiltonian Monte Carlo random walk for sampling from the Gibbs distribution using the logbarrier function in the Hamiltonian (PR 1).  
