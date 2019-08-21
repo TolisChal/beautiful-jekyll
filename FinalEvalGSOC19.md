@@ -37,6 +37,7 @@ In particular, I implemented the following:
  3. [Add Dikin, John and Vaidya random walks to volesti](https://github.com/GeomScale/volume_approximation/pull/39)  
    
 #### *Further work*  
+ - Improve the ODE solver for the HMC which use the logbarrier in the Hamiltonian.  
  - Improve `C++` code general functionality.  
  - Improve the `R` documentation.  
  - Submit a new version of `volesti` to CRAN.  
