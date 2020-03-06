@@ -17,7 +17,7 @@ Author, May 2019.
 - `Google Summer of Code 2019`.  
 Intern, May 2019 - August 2019.  
 Organization: R project for statistical computing.  
-Mentor**: Dr. Vissarion Fisikopoulos.  
+Mentor: Dr. Vissarion Fisikopoulos.  
 Title: State-of-the-art geometric random walks for sampling from high dimensional bodies in R.  
 [More info](https://summerofcode.withgoogle.com/projects/4674018118991872).  
 
