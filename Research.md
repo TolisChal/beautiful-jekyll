@@ -3,9 +3,9 @@ layout: page
 title: Research
 ---
 
-##Publications  
+## Publications  
 
-- `Sampling the feasible sets of SDPs and volume approximation`.
+- `Sampling the feasible sets of SDPs and volume approximation`.  
 Apostolos Chalkis, Vissarion Fisikopoulos, Panagiotis Repouskos, Elias Tsigaridas.  
 Under conference submission, February 2020.  
 
@@ -28,11 +28,7 @@ Ludovic Calès, Apostolos Chalkis, Ioannis Emiris, Vissarion Fisikopoulos.
 In Symposium of Computational Geometry, Budapest, Hungary, 2018.  
 Arxiv version [here](https://arxiv.org/abs/1803.05861).  
 
-- `volesti: Volume estimation and sampling for convex polytopes in R`.  
-Apostolos Chalkis, Vissarion Fisikopoulos.  
-Accepted for oral presentation in useR!19, Toulouse, France.  
-
-##Presentations
+## Presentations
 
 - `Accepted at International Congress on Mathematical Software (ICMS) 2020`.  
 Practical volume of estimation of zonotopes by a new annealing schedule for cooling convex bodies.  
